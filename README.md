@@ -1,4 +1,5 @@
-# 华南农业大学方程式无人车迈德威视工业相机（MV-LD-4-4M-G）驱动包
+# 华南农业大学方程式无人车迈德威视工业相机驱动包
+![cam](https://github.com/luojiatao/mvsdk_ros/assets/108130094/afa00aa9-0583-4f06-b76c-c0f3fe5f8fa1)
 ## 步骤
 #### 第一步：打开相应目录
 进入 `/mvsdk_ros/src/mv-camera-ros/scripts` 目录。此文件夹中包含了我们需要用到的重要脚本。
