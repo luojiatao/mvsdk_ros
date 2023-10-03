@@ -156,8 +156,8 @@ bool MVCameraCapture::capture()
     bridge_.image = cv::Mat(frameInfo_.iHeight, frameInfo_.iWidth, CV_8UC3, rgbBuffer_, cv::Mat::AUTO_STEP);
 
      // std::cout << bridge_.image.rows << std::endl;
-    cv::resize(bridge_.image, bridge_.image, cv::Size(1024, 1024));
-
+    // cv::resize(bridge_.image, bridge_.image, cv::Size(1024, 1024));
+    cv::resize(bridge_.image, bridge_.image, cv::Size(640, 480));
     //bridge_.image = image;
 
     //cv::imshow("iamge", image);
